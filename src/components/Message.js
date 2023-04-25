@@ -1,9 +1,10 @@
 // import React from "react";
 
-function Message(){
+const Message = props =>{
 return(
         <div>
-            <h1>Welcome to my react app</h1>
+            <h1>Welcome to my react app {props.name}</h1>
+            
         </div>
 );
 }
