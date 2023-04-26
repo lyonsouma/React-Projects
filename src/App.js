@@ -4,16 +4,16 @@ import './App.css';
 // import Lyons from './components/Class';
 // import Subscribe from './components/state';
 // import Meso from './components/Test';
-import Properties from './components/Sample';
-// import Property from './components/Sample';
+// import Properties from './components/Sample';
+import Property from './components/Sample';
 
 function App() {
   return (
     <div className="App">
-    {/* <Property name = 'Daniel'/> */}
+    <Property name = 'Daniel'/>
 
-      <Properties name = 'Lyons'/>
-      <Properties name = 'John'/>
+      {/* <Properties name = 'Lyons'/>
+      <Properties name = 'John'/> */}
       {/* <Meso/> */}
        {/* <Subscribe/> */}
          {/* <h1>Hi Guys</h1>

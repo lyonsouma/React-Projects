@@ -1,5 +1,5 @@
-// import { Component } from "react";
-
+import { Component } from "react";
+/*
 
       //FUNCTIONAL COMPONENTS
 const Properties = props => {
@@ -12,33 +12,32 @@ const Properties = props => {
 }
 
 export default Properties;
-
+*/
           //CLASS COMPONENTS
-    /*     
+       
     class Property extends Component{
       constructor(){
         super()
         this.state ={
-            Word: 'Yooh'
+            Word: 'Subscribe Here!'
         }
 
 
       }
 
       changeInformation(){
-        this.setState = ({
-            Word :"Welcome"
+        this.setState({
+            Word :"Thanks for Subscribing"
         })
     }
         render(){
             return(
                 
                 <div>
-                    <h1>Sample from {this.state.Word} </h1>
+                    <h1>{this.state.Word}</h1>
                     <button onClick={()=>{this.changeInformation()}}>Click</button>
                 </div>
             )
         }
     }
 export default Property;
-*/
