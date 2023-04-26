@@ -7,9 +7,11 @@ class Subscribe extends Component {
         this.state = {
           message : 'Welcome visitor'
         }
-        this.changeMessage = this.changeMessage.bind(this)
+    //BINDING WITHIN THE CONSTRUCTOR
+       // this.changeMessage = this.changeMessage.bind(this)
         }
-        changeMessage(){
+    //BINDING BY THE USE OF ARROW FUNCTION
+        changeMessage = ()=>{
             this.setState({
                 message: 'Thank you for subscribing'
             })
