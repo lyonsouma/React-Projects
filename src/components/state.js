@@ -7,9 +7,8 @@ class Subscribe extends Component {
         this.state = {
           message : 'Welcome visitor'
         }
+        this.changeMessage = this.changeMessage.bind(this)
         }
-        
-    
         changeMessage(){
             this.setState({
                 message: 'Thank you for subscribing'
@@ -19,7 +18,10 @@ class Subscribe extends Component {
         return(
             <div>
                 <h1>{this.state.message}</h1>
-                <button onClick={()=>this.changeMessage()}>Subscribe</button>
+                             {/* bindind ways*/}
+                <button onClick={this.changeMessage}>Subscribe</button>
+                {/* <button onClick={this.changeMessage.bind(this)}>Subscribe</button> */}
+                {/* <button onClick={()=>this.changeMessage()}>Subscribe</button> */}
             </div>
         )
     }
