@@ -1,4 +1,4 @@
-import { Component } from "react";
+// import { Component } from "react";
 /*
 
       //FUNCTIONAL COMPONENTS
@@ -14,7 +14,7 @@ const Properties = props => {
 export default Properties;
 */
           //CLASS COMPONENTS
-       
+  /*     
     class Property extends Component{
       constructor(){
         super()
@@ -41,3 +41,4 @@ export default Properties;
         }
     }
 export default Property;
+*/

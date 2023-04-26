@@ -5,12 +5,14 @@ import './App.css';
 // import Subscribe from './components/state';
 // import Meso from './components/Test';
 // import Properties from './components/Sample';
-import Property from './components/Sample';
+// import Property from './components/Sample';
+import Destru from './components/DestrucuteClass';
 
 function App() {
   return (
     <div className="App">
-    <Property name = 'Daniel'/>
+      <Destru name= 'Lyons'/>
+    {/* <Property name = 'Daniel'/> */}
 
       {/* <Properties name = 'Lyons'/>
       <Properties name = 'John'/> */}
