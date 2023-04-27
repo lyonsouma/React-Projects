@@ -8,12 +8,13 @@ import './App.css';
 // import Property from './components/Sample';
 // import Destru from './components/DestrucuteClass';
 // import ParentComponent from './components/ParentComponent';
-import StateByLec from './components/StateByLec';
+// import StateByLec from './components/StateByLec';
+import UserGreeting from './components/UserGreeting';
 function App() {
   return (
     <div className="App">
-      <StateByLec />
-
+      {/* <StateByLec /> */}
+       <UserGreeting/>
 
     {/* <ParentComponent/> */}
 
