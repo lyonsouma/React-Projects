@@ -20,6 +20,11 @@ class StateByLec extends Component{
         })
     }
 
+    DecreaseCount(){
+        this.setState({
+            Counter:  this.state.Counter -1,
+        })
+    }
     render(){
         return(
             <div>
@@ -28,6 +33,8 @@ class StateByLec extends Component{
               <button onClick={()=>this.ChangeCounter()}>Increment</button>
               <br></br>
               <button onClick={()=>this.ChangeCount()}>Reset</button>
+              <br></br>
+              <button onClick={()=>this.DecreaseCount()}>Decrement</button>
             </div>
         )
     }
