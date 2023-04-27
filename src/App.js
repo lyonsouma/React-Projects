@@ -7,11 +7,15 @@ import './App.css';
 // import Properties from './components/Sample';
 // import Property from './components/Sample';
 // import Destru from './components/DestrucuteClass';
-import ParentComponent from './components/ParentComponent';
+// import ParentComponent from './components/ParentComponent';
+import StateByLec from './components/StateByLec';
 function App() {
   return (
     <div className="App">
-    <ParentComponent/>
+      <StateByLec />
+
+
+    {/* <ParentComponent/> */}
 
     {/* <Destru name= 'Lyons'/> */}
 
