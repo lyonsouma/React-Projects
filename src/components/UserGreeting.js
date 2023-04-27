@@ -5,10 +5,14 @@ class UserGreeting extends Component{
     constructor(){
         super()
         this.state = {
-          IsLoggedIn : false
+          IsLoggedIn : true
     }
 }
     render(){
+
+        return(this.state.IsLoggedIn ? <div>Welcome Bro</div> : <div>Not loggeged in</div>)
+        
+      /*  
         if(this.state.IsLoggedIn){
             return(
                 <div>
@@ -23,7 +27,9 @@ class UserGreeting extends Component{
                 </div>
             )
         }
+        */
     }
+    
 }
 
 export default UserGreeting;
