@@ -16,7 +16,7 @@ import Style from './components/Style';
 function App() {
   return (
     <div className="App">
-      <Style/>
+      <Style Primary = {true}/>
     {/* <NameLists/> */}
       {/* <StateByLec /> */}
        {/* <UserGreeting/> */}
