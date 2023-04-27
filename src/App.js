@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import NameList from './components/NameList';
 // import Message from './components/Message';
 // import Lyons from './components/Class';
 // import Subscribe from './components/state';
@@ -9,12 +10,14 @@ import './App.css';
 // import Destru from './components/DestrucuteClass';
 // import ParentComponent from './components/ParentComponent';
 // import StateByLec from './components/StateByLec';
-import UserGreeting from './components/UserGreeting';
+// import UserGreeting from './components/UserGreeting';
+import NameLists from './components/NameList';
 function App() {
   return (
     <div className="App">
+    <NameLists/>
       {/* <StateByLec /> */}
-       <UserGreeting/>
+       {/* <UserGreeting/> */}
 
     {/* <ParentComponent/> */}
 
