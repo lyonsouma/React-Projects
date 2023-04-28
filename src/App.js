@@ -13,11 +13,15 @@ import './App.css';
 // import UserGreeting from './components/UserGreeting';
 // import NameLists from './components/NameList';
 // import Style from './components/Style';
-import Inline from './components/Inline';
+// import Inline from './components/Inline';
+import './appStyle.css'
+import Style from './components/Style';
 function App() {
   return (
     <div className="App">
-      <Inline/>
+      <h1 className='error'>Error</h1>
+      <h1 className={Style.success}>Success</h1>
+      {/* <Inline/> */}
       {/* <Style Primary = {true}/> */}
     {/* <NameLists/> */}
       {/* <StateByLec /> */}
