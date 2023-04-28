@@ -5,7 +5,7 @@ function Style(props){
 let className = props.Primary ? 'primary' : ''
     return(
         <div>
-            <h4 className="primary">Hello Boy</h4>
+            <h4 className={`${className} font-xl`}>Hello Boy</h4>
         </div>
     )
 }
