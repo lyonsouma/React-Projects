@@ -12,11 +12,13 @@ import './App.css';
 // import StateByLec from './components/StateByLec';
 // import UserGreeting from './components/UserGreeting';
 // import NameLists from './components/NameList';
-import Style from './components/Style';
+// import Style from './components/Style';
+import Inline from './components/Inline';
 function App() {
   return (
     <div className="App">
-      <Style Primary = {true}/>
+      <Inline/>
+      {/* <Style Primary = {true}/> */}
     {/* <NameLists/> */}
       {/* <StateByLec /> */}
        {/* <UserGreeting/> */}
