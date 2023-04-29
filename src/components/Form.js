@@ -1,5 +1,5 @@
 import { Component } from "react";
-
+import './Form.css'
 class Form extends Component{
 
     constructor(){
@@ -26,19 +26,19 @@ class Form extends Component{
     }
     render(){
         return(
-            <form>
+            <form className="whole">
                 <div>
-                    <label>UserName</label>
+                    <label className="text">UserName</label>
                     <input type="" value={this.state.userName} onChange={this.UpdateUserInput}></input>
                 </div>
                 <div>
-                    <select value={this.state.Topic} onChange={this.ChangeTopic}>
+                    <select className="text" value={this.state.Topic} onChange={this.ChangeTopic}>
                         <option>React</option>
                         <option>Python</option>
                         <option>JavaScript</option>
                     </select>
                 </div>
-                <button type="button" onClick={this.SendInfo}>Send</button>
+                <button className="text" type="button" onClick={this.SendInfo}>Send</button>
             </form>
         )
     }
