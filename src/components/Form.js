@@ -21,6 +21,9 @@ class Form extends Component{
             Topic : event.target.value
         })
     }
+    SendInfo = (event)=>{
+        alert(`${this.state.userName} ${this.state.Topic}`)
+    }
     render(){
         return(
             <form>
@@ -35,6 +38,7 @@ class Form extends Component{
                         <option>JavaScript</option>
                     </select>
                 </div>
+                <button type="button" onClick={this.SendInfo}>Send</button>
             </form>
         )
     }
