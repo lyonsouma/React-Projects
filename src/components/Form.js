@@ -9,12 +9,17 @@ class Form extends Component{
             userName : ''
         }
     }
+    UpdateUserInput = (event)=> {
+      this.setState({
+        userName : event.target.value
+      })
+    }
     render(){
         return(
             <form>
                 <div>
                     <label>UserName</label>
-                    <input type="" value={this.state.userName}></input>
+                    <input type="" value={this.state.userName} onChange={this.UpdateUserInput}></input>
                 </div>
             </form>
         )
