@@ -6,7 +6,8 @@ class Form extends Component{
         super();
 
         this.state = {
-            userName : ''
+            userName : '',
+            Topic : 'React'
         }
     }
     UpdateUserInput = (event)=> {
@@ -14,12 +15,25 @@ class Form extends Component{
         userName : event.target.value
       })
     }
+
+    ChangeTopic = (event)=>{
+        this.setState({
+            Topic : event.target.value
+        })
+    }
     render(){
         return(
             <form>
                 <div>
                     <label>UserName</label>
                     <input type="" value={this.state.userName} onChange={this.UpdateUserInput}></input>
+                </div>
+                <div>
+                    <select value={this.state.Topic} onChange={this.ChangeTopic}>
+                        <option>React</option>
+                        <option>Python</option>
+                        <option>JavaScript</option>
+                    </select>
                 </div>
             </form>
         )
