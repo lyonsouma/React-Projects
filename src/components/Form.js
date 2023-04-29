@@ -30,7 +30,8 @@ class Form extends Component{
             <form className="whole">
                 <div>
                     <label className="text">UserName</label>
-                    <input type="" value={this.state.userName} onChange={this.UpdateUserInput}></input>
+                    <br></br>
+                    <input className="field" type="" value={this.state.userName} onChange={this.UpdateUserInput}></input>
                 </div>
                 <div>
                     <select className="text" value={this.state.Topic} onChange={this.ChangeTopic}>
