@@ -22,7 +22,8 @@ class Form extends Component{
         })
     }
     SendInfo = (event)=>{
-        alert(`${this.state.userName} ${this.state.Topic}`)
+        alert(`${this.state.userName} ${this.state.Topic}`);
+        event.preventDefault()
     }
     render(){
         return(
