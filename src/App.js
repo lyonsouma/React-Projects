@@ -15,14 +15,20 @@ import './App.css';
 // import Style from './components/Style';
 // import Inline from './components/Inline';
 // import Fragment from './components/ReactDemo';
-import './appStyle.css'
+// import './appStyle.css'
 // import Form from './components/Form';
 // import Style from './components/Style';
-import Table from './components/Table';
+// import Table from './components/Table';
+import Hero from './components/Hero';
 function App() {
   return (
     <div className="App">
-      <Table />
+     <Hero heroName="Joe"></Hero>
+     <Hero heroName="Kelly"></Hero>
+     <Hero heroName="Jack"></Hero>
+
+
+      {/* <Table /> */}
     {/* <Fragment/> */}
       {/* <Form /> */}
       {/* <h1 className='error'>Error</h1>
