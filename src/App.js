@@ -19,13 +19,16 @@ import './App.css';
 // import Form from './components/Form';
 // import Style from './components/Style';
 // import Table from './components/Table';
+import ErrorBoundry from './components/ErrorBoundry';
 import Hero from './components/Hero';
 function App() {
   return (
     <div className="App">
+     <ErrorBoundry>
      <Hero heroName="Joe"></Hero>
      <Hero heroName="Kelly"></Hero>
      <Hero heroName="joker"></Hero>
+     </ErrorBoundry>
 
 
       {/* <Table /> */}
