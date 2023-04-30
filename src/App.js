@@ -14,13 +14,15 @@ import './App.css';
 // import NameLists from './components/NameList';
 // import Style from './components/Style';
 // import Inline from './components/Inline';
+import Fragment from './components/ReactDemo';
 import './appStyle.css'
-import Form from './components/Form';
+// import Form from './components/Form';
 // import Style from './components/Style';
 function App() {
   return (
     <div className="App">
-      <Form />
+    <Fragment/>
+      {/* <Form /> */}
       {/* <h1 className='error'>Error</h1>
       <h1 className={Style.success}>Success</h1> */}
       {/* <Inline/> */}

@@ -27,10 +27,9 @@ class Form extends Component{
     }
     render(){
         return(
-            <form className="whole">
+            <form className="whole, round">
                 <div>
                     <label className="text">UserName</label>
-                    <br></br>
                     <input className="field" type="" value={this.state.userName} onChange={this.UpdateUserInput}></input>
                 </div>
                 <div>

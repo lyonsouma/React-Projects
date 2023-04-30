@@ -8,3 +8,7 @@
 .field{
     background-color: tomato;
 }
+.round{
+    border: 1px solid gray;
+
+}
