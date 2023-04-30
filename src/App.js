@@ -25,7 +25,7 @@ function App() {
     <div className="App">
      <Hero heroName="Joe"></Hero>
      <Hero heroName="Kelly"></Hero>
-     <Hero heroName="Jack"></Hero>
+     <Hero heroName="joker"></Hero>
 
 
       {/* <Table /> */}
