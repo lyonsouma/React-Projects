@@ -19,18 +19,19 @@ import './App.css';
 // import Form from './components/Form';
 // import Style from './components/Style';
 // import Table from './components/Table';
-import ErrorBoundry from './components/ErrorBoundry';
-import Hero from './components/Hero';
+// import ErrorBoundry from './components/ErrorBoundry';
+// import Hero from './components/Hero';
+import ClickedCounter from './components/ClickedCounter';
 function App() {
   return (
     <div className="App">
-     <ErrorBoundry>
+     {/* <ErrorBoundry>
      <Hero heroName="Joe"></Hero>
      <Hero heroName="Kelly"></Hero>
      <Hero heroName="joker"></Hero>
-     </ErrorBoundry>
+     </ErrorBoundry> */}
 
-
+<ClickedCounter/>
       {/* <Table /> */}
     {/* <Fragment/> */}
       {/* <Form /> */}
