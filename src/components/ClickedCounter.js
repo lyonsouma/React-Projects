@@ -1,5 +1,5 @@
 import { Component } from "react";
-
+import './ClickedCounter.css'
 class ClickedCounter extends Component{
     constructor(){
         super()
@@ -16,7 +16,7 @@ class ClickedCounter extends Component{
         const {Counter} = this.state
         return(
             <div>
-                 <button onClick={this.changeClick}>Clicked {Counter} times</button>
+                 <button className="bg" onClick={this.changeClick}>Clicked {Counter} times</button>
             </div>
         )
     }
