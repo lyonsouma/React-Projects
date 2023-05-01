@@ -23,7 +23,7 @@ import './App.css';
 // import Hero from './components/Hero';
 // import ClickedCounter from './components/ClickedCounter';
 import Count from './components/Count2';
-import Hover from './components/HoverCounter';
+// import Hover from './components/HoverCounter';
 function App() {
   return (
     <div className="App">
@@ -32,7 +32,7 @@ function App() {
      <Hero heroName="Kelly"></Hero>
      <Hero heroName="joker"></Hero>
      </ErrorBoundry> */}
-   <Hover/>
+   {/* <Hover/> */}
    <Count/>
 {/* <ClickedCounter/> */}
       {/* <Table /> */}
