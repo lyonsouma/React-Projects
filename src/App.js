@@ -21,7 +21,8 @@ import './App.css';
 // import Table from './components/Table';
 // import ErrorBoundry from './components/ErrorBoundry';
 // import Hero from './components/Hero';
-import ClickedCounter from './components/ClickedCounter';
+// import ClickedCounter from './components/ClickedCounter';
+import Count from './components/Count2';
 function App() {
   return (
     <div className="App">
@@ -31,7 +32,8 @@ function App() {
      <Hero heroName="joker"></Hero>
      </ErrorBoundry> */}
 
-<ClickedCounter/>
+   <Count/>
+{/* <ClickedCounter/> */}
       {/* <Table /> */}
     {/* <Fragment/> */}
       {/* <Form /> */}
