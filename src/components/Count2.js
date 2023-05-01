@@ -1,9 +1,10 @@
 import { Component } from "react";
 import HOC from "./HOC";
+
 class Count extends Component{
 
     render(){
-        const {count , incrementCount} = this.props;
+        const {count , incrementCount} = this.props
         return(
             <div>
                 <button onClick={incrementCount}>Clicked 
@@ -13,4 +14,4 @@ class Count extends Component{
     }
 
 }
-export default HOC(Count)
+export default HOC (Count)
