@@ -29,7 +29,7 @@ import HoverApp from './components/HoverApp';
 function App() {
   return (
     <div className="App">
-      <CounterApp/>
+      <CounterApp name ='lyons'/>
       <HoverApp/>
      {/* <ErrorBoundry>
      <Hero heroName="Joe"></Hero>
