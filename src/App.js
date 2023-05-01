@@ -22,7 +22,7 @@ import './App.css';
 // import ErrorBoundry from './components/ErrorBoundry';
 // import Hero from './components/Hero';
 // import ClickedCounter from './components/ClickedCounter';
-// import Count from './components/Count2';
+import Count from './components/Count2';
 import Hover from './components/HoverCounter';
 function App() {
   return (
@@ -33,7 +33,7 @@ function App() {
      <Hero heroName="joker"></Hero>
      </ErrorBoundry> */}
    <Hover/>
-   {/* <Count/> */}
+   <Count/>
 {/* <ClickedCounter/> */}
       {/* <Table /> */}
     {/* <Fragment/> */}

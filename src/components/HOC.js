@@ -4,9 +4,10 @@ const HOC = (OriginalComponent) => {
     class NewComponent extends React.Component{
         render(){
             return(
-                <OriginalComponent/>
+                <OriginalComponent name ='Lyons' />
             )
         }
     }
     return NewComponent
 }
+export default HOC

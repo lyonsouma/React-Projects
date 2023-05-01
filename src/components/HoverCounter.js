@@ -1,5 +1,5 @@
 import { Component } from "react";
-
+import HOC from "./HOC";
 class Hover extends Component{
     constructor(){
         super()
@@ -17,10 +17,10 @@ class Hover extends Component{
         const {hover} = this.state
         return(
             <div>
-                <button onMouseOver={this.changeHoverCounter}>Hovered {hover} Times</button>
+                <button onMouseOver={this.changeHoverCounter}>{this.props.name} Hovered {hover} Times</button>
             </div>
         )
     }
 
 }
-export default Hover
+export default HOC(Hover)

@@ -1,4 +1,5 @@
 import { Component } from "react";
+import HOC from "./HOC";
 
 class Count extends Component{
     constructor(){
@@ -16,10 +17,10 @@ class Count extends Component{
     render(){
         return(
             <div>
-                <button onClick={this.changeValue}>Clicked {this.state.count} Times</button>
+                <button onClick={this.changeValue}>{this.props.name} Clicked {this.state.count} Times</button>
             </div>
         )
     }
 
 }
-export default Count
+export default HOC (Count)
