@@ -33,7 +33,7 @@ import { UserProvider } from './Contex';
 function App() {
   return (
     <div className="App">
-      <UserProvider>
+      <UserProvider value = "Lyons">
           <ComponentA/>
       </UserProvider>
       {/* <WorkCount name = 'Lyons' />
