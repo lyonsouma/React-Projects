@@ -1,7 +1,9 @@
 // import logo from './logo.svg';
 import './App.css';
-import ComponentA from './ComponentA';
-import { UserProvider } from './Contex';
+import ComponentX from './ComponentX';
+import { Provider } from './ContexXYZ';
+// import ComponentA from './ComponentA';
+// import { UserProvider } from './Contex';
 // import CounterApp from './components/CounterApp';
 // import HoverApp from './components/HoverApp';
 // import NameList from './components/NameList';
@@ -33,9 +35,12 @@ import { UserProvider } from './Contex';
 function App() {
   return (
     <div className="App">
-      <UserProvider value = "Lyons">
+      <Provider Value ='Ouma'>
+          <ComponentX />
+      </Provider>
+      {/* <UserProvider value = "Lyons">
           <ComponentA/>
-      </UserProvider>
+      </UserProvider> */}
       {/* <WorkCount name = 'Lyons' />
       <WorkHover name = 'Lyons' /> */}
       {/* <CounterApp name ='lyons'/> */}
