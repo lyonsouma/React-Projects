@@ -19,7 +19,7 @@ const ParentHoc = (OriginalComponent) =>{
             return <OriginalComponent 
                    Count = {this.state.Count}
                    ChangeValue = {this.ChangeValue}
-                   {...this.props.name}
+                   {...this.props}
             />
         }
     }
