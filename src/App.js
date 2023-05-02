@@ -1,5 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
+import ComponentA from './ComponentA';
+import { UserProvider } from './Contex';
 // import CounterApp from './components/CounterApp';
 // import HoverApp from './components/HoverApp';
 // import NameList from './components/NameList';
@@ -26,13 +28,16 @@ import './App.css';
 // import ClickedCounter from './components/ClickedCounter';
 // import Count from './components/Count2';
 // import Hover from './components/HoverCounter';
-import WorkCount from './components/WorkCount';
-import WorkHover from './components/WorkHover';
+// import WorkCount from './components/WorkCount';
+// import WorkHover from './components/WorkHover';
 function App() {
   return (
     <div className="App">
-      <WorkCount name = 'Lyons' />
-      <WorkHover name = 'Lyons' />
+      <UserProvider>
+          <ComponentA/>
+      </UserProvider>
+      {/* <WorkCount name = 'Lyons' />
+      <WorkHover name = 'Lyons' /> */}
       {/* <CounterApp name ='lyons'/> */}
       {/* <HoverApp/> */}
      {/* <ErrorBoundry>

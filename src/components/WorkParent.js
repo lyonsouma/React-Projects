@@ -10,8 +10,8 @@ const WorkParent = (OrginalComponent , incrementNumber)=>{
             }
         }
         ChangeContent = ()=>{
-            this.setState ({
-                Count :this.state.Count + incrementNumber
+            this.setState (prevstate =>{
+               return  {Count :this.state.Count + incrementNumber}
             })
         }
         render(){
