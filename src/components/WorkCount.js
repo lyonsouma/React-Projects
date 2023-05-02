@@ -7,7 +7,7 @@ render(){
 const {Count, ChangeContent} = this.props
     return(
         <div>
-           <button onClick={ChangeContent}>Clicked {Count} times</button>
+           <button onClick={ChangeContent}>{this.props.name} Clicked {Count} times</button>
            <h1>Hello</h1>
         </div>
     )

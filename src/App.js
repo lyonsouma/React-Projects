@@ -31,8 +31,8 @@ import WorkHover from './components/WorkHover';
 function App() {
   return (
     <div className="App">
-      <WorkCount/>
-      <WorkHover/>
+      <WorkCount name = 'Lyons' />
+      <WorkHover name = 'Lyons' />
       {/* <CounterApp name ='lyons'/> */}
       {/* <HoverApp/> */}
      {/* <ErrorBoundry>

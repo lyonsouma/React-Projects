@@ -11,7 +11,7 @@ render(){
 const {Count , ChangeContent} = this.props
     return(
         <div>
-           <button onMouseOver={ChangeContent}>Hovered {Count} times</button>
+           <button onMouseOver={ChangeContent}>{this.props.name}     Hovered {Count} times</button>
         </div>
     )
 }

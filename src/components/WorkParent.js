@@ -19,6 +19,7 @@ const WorkParent = (OrginalComponent)=>{
             return <OrginalComponent
                       Count = {this.state.Count}
                       ChangeContent = {this.ChangeContent}
+                      {...this.props}
                      />
                     }  
     }
