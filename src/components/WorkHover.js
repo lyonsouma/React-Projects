@@ -11,9 +11,9 @@ render(){
 const {Count , ChangeContent} = this.props
     return(
         <div>
-           <button onMouseOver={ChangeContent}>{this.props.name}     Hovered {Count} times</button>
+           <button onMouseOver={ChangeContent}>{this.props.name} Hovered {Count} times</button>
         </div>
     )
 }
 }
-export default WorkParent(WorkHover)
+export default WorkParent(WorkHover,5)

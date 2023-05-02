@@ -1,5 +1,5 @@
 import React from "react"
-const WorkParent = (OrginalComponent)=>{
+const WorkParent = (OrginalComponent , incrementNumber)=>{
 
     class Parent extends React.Component{
       
@@ -11,7 +11,7 @@ const WorkParent = (OrginalComponent)=>{
         }
         ChangeContent = ()=>{
             this.setState ({
-                Count :this.state.Count + 1
+                Count :this.state.Count + incrementNumber
             })
         }
         render(){

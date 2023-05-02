@@ -13,4 +13,4 @@ const {Count, ChangeContent} = this.props
     )
 }
 }
-export default WorkParent(WorkCount)
+export default WorkParent(WorkCount,10)
