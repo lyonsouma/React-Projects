@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
-import CounterApp from './components/CounterApp';
-import HoverApp from './components/HoverApp';
+// import CounterApp from './components/CounterApp';
+// import HoverApp from './components/HoverApp';
 // import NameList from './components/NameList';
 // import Message from './components/Message';
 // import Lyons from './components/Class';
@@ -26,11 +26,15 @@ import HoverApp from './components/HoverApp';
 // import ClickedCounter from './components/ClickedCounter';
 // import Count from './components/Count2';
 // import Hover from './components/HoverCounter';
+import WorkCount from './components/WorkCount';
+import WorkHover from './components/WorkHover';
 function App() {
   return (
     <div className="App">
-      <CounterApp name ='lyons'/>
-      <HoverApp/>
+      <WorkCount/>
+      <WorkHover/>
+      {/* <CounterApp name ='lyons'/> */}
+      {/* <HoverApp/> */}
      {/* <ErrorBoundry>
      <Hero heroName="Joe"></Hero>
      <Hero heroName="Kelly"></Hero>
