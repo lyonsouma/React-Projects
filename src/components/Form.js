@@ -39,8 +39,8 @@ class Form extends Component{
                     <input className="box"  type="number"  onChange={this.UpdateUserInput}></input>
                     
                 </div>
-                
-                <button type="button"  onClick={this.SendInfo}>Send</button>
+                <br></br>
+                <button className="click" type="button"  onClick={this.SendInfo}>Send</button>
             </form>
         )
     }
