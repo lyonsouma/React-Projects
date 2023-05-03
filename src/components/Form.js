@@ -21,7 +21,7 @@ class Form extends Component{
     }
     render(){
         return(
-            <form className="whole, round">
+            <form className="bg">
                 <div>
                     <h1>SIGN UP</h1>
                     <h4>UserName  </h4>

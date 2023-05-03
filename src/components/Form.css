@@ -8,3 +8,7 @@
     border-radius: 5px;
     cursor: pointer;
 }
+.bg{
+    background-color: rgb(9, 38, 142);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
