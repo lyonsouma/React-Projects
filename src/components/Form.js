@@ -6,24 +6,18 @@ class Form extends Component{
         super();
 
         this.state = {
-            userName : '',
-            Topic : 'React'
+            userName : ' ',
         }
     }
-    UpdateUserInput = (event)=> {
+    UpdateUserInput = (props)=> {
       this.setState({
-        userName : event.target.value
+        userName : this.props.value
       })
     }
 
-    ChangeTopic = (event)=>{
-        this.setState({
-            Topic : event.target.value
-        })
-    }
-    SendInfo = (event)=>{
-        alert(`${this.state.userName} ${this.state.Topic}`);
-        event.preventDefault()
+    SendInfo = ()=>{
+        alert(`${this.props.value} ${this.state.Topic}`);
+       
     }
     render(){
         return(
@@ -31,23 +25,22 @@ class Form extends Component{
                 <div>
                     <h1>SIGN UP</h1>
                     <h4>UserName  </h4>
-                    <input className="box" type="" value={this.state.userName} onChange={this.UpdateUserInput}></input>
+                    <input className="box" type="text"  onChange={this.UpdateUserInput}></input>
                     
                 </div>
 
                 <div>
                     <h4>Email </h4>
-                    <input className="box"  type="" value={this.state.userName} onChange={this.UpdateUserInput}></input>
+                    <input className="box"  type="text" value={this.props.value} onChange={this.UpdateUserInput}></input>
                 </div>
 
                 <div>
-                    <h4>Contact
-                    <input type="" value={this.state.userName} onChange={this.UpdateUserInput}></input>
-                    </h4>
+                    <h4>Contact</h4>
+                    <input className="box"  type="number"  onChange={this.UpdateUserInput}></input>
                     
                 </div>
                 
-                <button type="button" onClick={this.SendInfo}>Send</button>
+                <button type="button"  onClick={this.SendInfo}>Send</button>
             </form>
         )
     }

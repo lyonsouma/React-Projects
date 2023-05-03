@@ -59,7 +59,7 @@ function App() {
 {/* <ClickedCounter/> */}
       {/* <Table /> */}
     {/* <Fragment/> */}
-      <Form />
+      <Form name = " "/>
       {/* <h1 className='error'>Error</h1>
       <h1 className={Style.success}>Success</h1> */}
       {/* <Inline/> */}
