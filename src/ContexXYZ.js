@@ -1,6 +1,6 @@
 import React from "react";
-
-const UserContex = React.createContext();
+// How to add default value in a contex
+const UserContex = React.createContext('Lyons');
 
 const Provider = UserContex.Provider;
 const Consumer = UserContex.Consumer;

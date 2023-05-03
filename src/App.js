@@ -1,7 +1,9 @@
 // import logo from './logo.svg';
 import './App.css';
-import ComponentX from './ComponentX';
-import { Provider } from './ContexXYZ';
+import Assignment1 from './components/Assignment1';
+import Assignment2 from './components/Assignment2';
+// import ComponentX from './ComponentX';
+// import { Provider } from './ContexXYZ';
 // import ComponentA from './ComponentA';
 // import { UserProvider } from './Contex';
 // import CounterApp from './components/CounterApp';
@@ -35,9 +37,11 @@ import { Provider } from './ContexXYZ';
 function App() {
   return (
     <div className="App">
-      <Provider Value ='Ouma'>
+     <Assignment1/>
+     <Assignment2/>
+      {/* <Provider Value ='Ouma'>
           <ComponentX />
-      </Provider>
+      </Provider> */}
       {/* <UserProvider value = "Lyons">
           <ComponentA/>
       </UserProvider> */}
