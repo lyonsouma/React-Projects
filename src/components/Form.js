@@ -37,9 +37,8 @@ class Form extends Component{
                 </div>
 
                 <div>
-                    <h4>Email : 
-                    <input type="" value={this.state.userName} onChange={this.UpdateUserInput}></input>
-                    </h4>
+                    <h4>Email :</h4>
+                    <input className="box"  type="" value={this.state.userName} onChange={this.UpdateUserInput}></input>
                     
                 </div>
 
