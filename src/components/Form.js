@@ -16,7 +16,7 @@ class Form extends Component{
     }
 
     SendInfo = ()=>{
-        alert(`${this.props.value} ${this.state.Topic}`);
+        alert(`${this.props.value}`);
        
     }
     render(){
@@ -31,7 +31,7 @@ class Form extends Component{
 
                 <div>
                     <h4>Email </h4>
-                    <input className="box"  type="text" value={this.props.value} onChange={this.UpdateUserInput}></input>
+                    <input className="box"  type="text" onChange={this.UpdateUserInput}></input>
                 </div>
 
                 <div>
