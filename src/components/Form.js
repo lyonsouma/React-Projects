@@ -30,16 +30,14 @@ class Form extends Component{
             <form className="whole, round">
                 <div>
                     <h1>SIGN UP</h1>
-                    <h4>UserName :
+                    <h4>UserName  </h4>
                     <input className="box" type="" value={this.state.userName} onChange={this.UpdateUserInput}></input>
-                    </h4>
                     
                 </div>
 
                 <div>
-                    <h4>Email :</h4>
+                    <h4>Email </h4>
                     <input className="box"  type="" value={this.state.userName} onChange={this.UpdateUserInput}></input>
-                    
                 </div>
 
                 <div>
