@@ -8,7 +8,7 @@ const Changed = ()=>{
 return(
     <div>
         
-        <button onClick={Changed()}>Click Me</button>
+        <button onClick={Changed}>Click Me</button>
     </div>
 )
 }
