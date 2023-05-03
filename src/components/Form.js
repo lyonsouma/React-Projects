@@ -29,17 +29,27 @@ class Form extends Component{
         return(
             <form className="whole, round">
                 <div>
-                    <label className="text">UserName</label>
-                    <input className="field" type="" value={this.state.userName} onChange={this.UpdateUserInput}></input>
+                    <h4>UserName :
+                    <input className="box" type="" value={this.state.userName} onChange={this.UpdateUserInput}></input>
+                    </h4>
+                    
                 </div>
+
                 <div>
-                    <select className="text" value={this.state.Topic} onChange={this.ChangeTopic}>
-                        <option>React</option>
-                        <option>Python</option>
-                        <option>JavaScript</option>
-                    </select>
+                    <h4>Email : 
+                    <input type="" value={this.state.userName} onChange={this.UpdateUserInput}></input>
+                    </h4>
+                    
                 </div>
-                <button className="text" type="button" onClick={this.SendInfo}>Send</button>
+
+                <div>
+                    <h4>Contact
+                    <input type="" value={this.state.userName} onChange={this.UpdateUserInput}></input>
+                    </h4>
+                    
+                </div>
+                
+                <button type="button" onClick={this.SendInfo}>Send</button>
             </form>
         )
     }

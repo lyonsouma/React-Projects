@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
-import Assignment1 from './components/Assignment1';
-import Assignment2 from './components/Assignment2';
+// import Assignment1 from './components/Assignment1';
+// import Assignment2 from './components/Assignment2';
 // import ComponentX from './ComponentX';
 // import { Provider } from './ContexXYZ';
 // import ComponentA from './ComponentA';
@@ -24,7 +24,7 @@ import Assignment2 from './components/Assignment2';
 // import Inline from './components/Inline';
 // import Fragment from './components/ReactDemo';
 // import './appStyle.css'
-// import Form from './components/Form';
+import Form from './components/Form';
 // import Style from './components/Style';
 // import Table from './components/Table';
 // import ErrorBoundry from './components/ErrorBoundry';
@@ -37,8 +37,8 @@ import Assignment2 from './components/Assignment2';
 function App() {
   return (
     <div className="App">
-     <Assignment1/>
-     <Assignment2/>
+     {/* <Assignment1/>
+     <Assignment2/> */}
       {/* <Provider Value ='Ouma'>
           <ComponentX />
       </Provider> */}
@@ -59,7 +59,7 @@ function App() {
 {/* <ClickedCounter/> */}
       {/* <Table /> */}
     {/* <Fragment/> */}
-      {/* <Form /> */}
+      <Form />
       {/* <h1 className='error'>Error</h1>
       <h1 className={Style.success}>Success</h1> */}
       {/* <Inline/> */}
