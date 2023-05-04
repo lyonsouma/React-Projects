@@ -2,6 +2,7 @@
 import './App.css';
 import HookCounter from './HookCount';
 import HookCounter2 from './HookCounter2';
+import HookCounterTwo from './HookCounterTwo';
 // import Assignment1 from './components/Assignment1';
 // import Assignment2 from './components/Assignment2';
 // import ComponentX from './ComponentX';
@@ -41,6 +42,7 @@ function App() {
     <div className="App">
       <HookCounter/>
       <HookCounter2/>
+      <HookCounterTwo/>
      {/* <Assignment1/>
      <Assignment2/> */}
       {/* <Provider Value ='Ouma'>

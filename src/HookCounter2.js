@@ -5,6 +5,7 @@ function HookCounter2 (){
         <div>
             <h3>HOOKS</h3>
             <button onClick={()=> newNumber(count + 5)}>Count {count}</button>
+            <br/>
         </div>
     )
 
