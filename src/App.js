@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
-import UseEffectTwo from './useEffectTwo';
-// import UseEffect from './UseEffec';
+// import UseEffectTwo from './useEffectTwo';
+import UseEffect from './UseEffec';
 // import Assignment1 from './components/Assignment1';
 // import Assignment2 from './components/Assignment2';
 // import ComponentX from './ComponentX';
@@ -39,11 +39,11 @@ import UseEffectTwo from './useEffectTwo';
 function App() {
   return (
     <div className="App">
-      <UseEffectTwo/>
+      {/* <UseEffectTwo/> */}
       {/* <HookCounter/>
       <HookCounter2/>
       <HookCounterTwo/> */}
-      {/* <UseEffect/> */}
+      <UseEffect/>
      {/* <Assignment1/>
      <Assignment2/> */}
       {/* <Provider Value ='Ouma'>
