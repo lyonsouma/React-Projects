@@ -16,7 +16,7 @@ return(
         <button onClick={()=>finalValue (prevCount => prevCount +1)}>Increment</button>
         <button onClick={()=>finalValue(initialValue)}>Reset</button>
         <button onClick={()=>finalValue (prevCount => prevCount - 1)}>Decrement</button>
-        <button onClick={()=>finalValue (prevCount => prevCount + 5)}>Increment5</button>
+        <button onClick={()=>IncrementFive (prevCount => prevCount + 5)}>Increment5</button>
     </div>
 )
 }
