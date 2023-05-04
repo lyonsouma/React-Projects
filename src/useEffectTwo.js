@@ -7,6 +7,7 @@ function UseEffectTwo(){
     })
 return(
     <div>
+        <input type='' ></input>
         <button onClick={()=>outcome(count + 1)}>Dialed {count} times</button>
     </div>
 )
