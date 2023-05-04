@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import HookCounter from './HookCount';
 // import Assignment1 from './components/Assignment1';
 // import Assignment2 from './components/Assignment2';
 // import ComponentX from './ComponentX';
@@ -24,7 +25,7 @@ import './App.css';
 // import Inline from './components/Inline';
 // import Fragment from './components/ReactDemo';
 // import './appStyle.css'
-import Form from './components/Form';
+// import Form from './components/Form';
 // import Style from './components/Style';
 // import Table from './components/Table';
 // import ErrorBoundry from './components/ErrorBoundry';
@@ -37,6 +38,7 @@ import Form from './components/Form';
 function App() {
   return (
     <div className="App">
+      <HookCounter/>
      {/* <Assignment1/>
      <Assignment2/> */}
       {/* <Provider Value ='Ouma'>
@@ -59,7 +61,7 @@ function App() {
 {/* <ClickedCounter/> */}
       {/* <Table /> */}
     {/* <Fragment/> */}
-      <Form name = " "/>
+      {/* <Form name = " "/> */}
       {/* <h1 className='error'>Error</h1>
       <h1 className={Style.success}>Success</h1> */}
       {/* <Inline/> */}
