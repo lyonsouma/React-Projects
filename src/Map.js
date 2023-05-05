@@ -38,7 +38,7 @@ return <div>{StudentList}</div>
 */
 
                 //OBJECT 2
-
+/*
     let students = [
  
         {id:1, Name : 'Edwin', Age: '12'},
@@ -56,6 +56,14 @@ let StudentList = students.map((student)=>(
 ))
 return <div>
     {StudentList}
+</div>
+*/
+
+let Grades = ['A', 'B', 'C', 'D'];
+let GradeList = Grades.map ((grade)=>(grade))
+
+return <div>
+    {GradeList}
 </div>
 }
 export default Map
