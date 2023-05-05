@@ -11,7 +11,7 @@ return(
     </div>
 )
 */
-
+/*
 let students = ['John' ,'joe' , 'lyons' , 'kelly'];
 
 let studentList = students.map((student)=>(
@@ -21,5 +21,19 @@ let studentList = students.map((student)=>(
 return <div>
     {studentList}
 </div>
+*/
+
+                       // OBJECT
+
+    let students = [
+        {id :1, Name :"Lyons", course: "Software"},
+        {id :2, Name :"John", course: "Cyber Sec"},
+        {id :3, Name :"Brian", course: "DataBase"}
+    ]
+
+    let StudentList = students.map((student)=>(
+        <h1 key = {student.id}>{student.Name},{ student.course}</h1>
+    ))
+return <div>{StudentList}</div>
 }
 export default Map
