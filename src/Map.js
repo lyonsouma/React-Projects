@@ -1,4 +1,5 @@
 const Map = () => {
+    /*
     let Prices = [200 , 250, 50, 230]
 return(
     <div>
@@ -9,5 +10,16 @@ return(
        </h1>
     </div>
 )
+*/
+
+let students = ['John' ,'joe' , 'lyons' , 'kelly'];
+
+let studentList = students.map((student)=>(
+    <h1 key ={student}>{student}</h1>
+)
+)
+return <div>
+    {studentList}
+</div>
 }
 export default Map
