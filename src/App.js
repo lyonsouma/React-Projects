@@ -1,6 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
 import Map from './Map';
+import MapTwo from './Map';
+import MapThree from './MapThree';
 // import UseEffectTwo from './useEffectTwo';
 // import UseEffect from './UseEffec';
 // import Assignment1 from './components/Assignment1';
@@ -41,6 +43,8 @@ function App() {
   return (
     <div className="App">
       <Map/>
+      <MapTwo/>
+      <MapThree/>
       {/* <UseEffectTwo/> */}
       {/* <HookCounter/>
       <HookCounter2/>
