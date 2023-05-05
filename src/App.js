@@ -1,7 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
+import Map from './Map';
 // import UseEffectTwo from './useEffectTwo';
-import UseEffect from './UseEffec';
+// import UseEffect from './UseEffec';
 // import Assignment1 from './components/Assignment1';
 // import Assignment2 from './components/Assignment2';
 // import ComponentX from './ComponentX';
@@ -39,11 +40,12 @@ import UseEffect from './UseEffec';
 function App() {
   return (
     <div className="App">
+      <Map/>
       {/* <UseEffectTwo/> */}
       {/* <HookCounter/>
       <HookCounter2/>
       <HookCounterTwo/> */}
-      <UseEffect/>
+      {/* <UseEffect/> */}
      {/* <Assignment1/>
      <Assignment2/> */}
       {/* <Provider Value ='Ouma'>
