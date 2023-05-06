@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import HookCounter1 from './HookCount';
 import Map from './Map';
 import MapTwo from './Map';
 import MapThree from './MapThree';
@@ -45,6 +46,7 @@ function App() {
       <Map/>
       <MapTwo/>
       <MapThree/>
+      <HookCounter1/>
       {/* <UseEffectTwo/> */}
       {/* <HookCounter/>
       <HookCounter2/>
