@@ -1,3 +1,7 @@
+
+
+
+
 /*
 const MapThree = () => {
     let students = [
@@ -20,7 +24,7 @@ const MapThree = () => {
     </div>
     }
     */
-   
+   /*
 import React, {useState} from 'react';
 import './inputStyle.css'
 function Name(){
@@ -42,3 +46,4 @@ function Name(){
     )
 }
 export default Name
+*/
