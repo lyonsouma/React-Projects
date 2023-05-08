@@ -4,10 +4,17 @@ function Name(){
 
     const [firstName, newName] = useState(" ")
 
-    return(
-        <form>
+    const sendValue = (e)=>{
+        e.preventDefault()
+        console.log({
+            FName : {firstName}
+        })
 
+    }
+    return(
+        <form onSubmit={sendValue}>
         <input value={firstName} onChange={(e)=>newName(e.target.value)}></input>
+        <button type='submit'>Click Here</button>
         </form>
     )
 }
