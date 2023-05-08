@@ -1,6 +1,6 @@
 import React from 'react'
 function NameLists(){
-    const names = ['Jerry', 'Kelly', 'Joe']
+    const names = ['Jerry', 'Kelly', 'Joe', 'lyons', 'brian', ' calab']
     return(
         <div>
             {

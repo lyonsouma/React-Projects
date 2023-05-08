@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import Name from './components/input';
+import NameLists from './components/NameList';
 // import HookCounter1 from './HookCount';
 // import Map from './Map';
 // import MapTwo from './Map';
@@ -44,6 +45,7 @@ import Name from './components/input';
 function App() {
   return (
     <div className="App">
+      <NameLists/>
       <Name />
       {/* <Map/> */}
       {/* <MapTwo/> */}
