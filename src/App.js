@@ -1,9 +1,10 @@
 // import logo from './logo.svg';
 import './App.css';
-import HookCounter1 from './HookCount';
-import Map from './Map';
-import MapTwo from './Map';
-import MapThree from './MapThree';
+import Name from './components/input';
+// import HookCounter1 from './HookCount';
+// import Map from './Map';
+// import MapTwo from './Map';
+// import MapThree from './MapThree';
 // import UseEffectTwo from './useEffectTwo';
 // import UseEffect from './UseEffec';
 // import Assignment1 from './components/Assignment1';
@@ -43,10 +44,11 @@ import MapThree from './MapThree';
 function App() {
   return (
     <div className="App">
-      <Map/>
-      <MapTwo/>
-      <MapThree/>
-      <HookCounter1/>
+      <Name />
+      {/* <Map/> */}
+      {/* <MapTwo/> */}
+      {/* <MapThree/> */}
+      {/* <HookCounter1/> */}
       {/* <UseEffectTwo/> */}
       {/* <HookCounter/>
       <HookCounter2/>
