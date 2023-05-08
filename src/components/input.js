@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-
+import './inputStyle.css'
 function Name(){
 
     const [firstName, newName] = useState(" ")
@@ -13,8 +13,8 @@ function Name(){
     }
     return(
         <form onSubmit={sendValue}>
-        <input value={firstName} onChange={(e)=>newName(e.target.value)}></input>
-        <button type='submit'>Click Here</button>
+        <input className='field' value={firstName} onChange={(e)=>newName(e.target.value)}></input>
+        <button className='out' type='submit'>Click Here</button>
         </form>
     )
 }
