@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
-import Name from './components/input';
-import NameLists from './components/NameList';
+// import Name from './components/input';
+// import NameLists from './components/NameList';
 // import HookCounter1 from './HookCount';
 // import Map from './Map';
 // import MapTwo from './Map';
@@ -37,7 +37,7 @@ import NameLists from './components/NameList';
 // import Table from './components/Table';
 // import ErrorBoundry from './components/ErrorBoundry';
 // import Hero from './components/Hero';
-// import ClickedCounter from './components/ClickedCounter';
+import ClickedCounter from './components/ClickedCounter';
 // import Count from './components/Count2';
 // import Hover from './components/HoverCounter';
 // import WorkCount from './components/WorkCount';
@@ -45,8 +45,8 @@ import NameLists from './components/NameList';
 function App() {
   return (
     <div className="App">
-      <NameLists/>
-      <Name />
+      {/* <NameLists/> */}
+      {/* <Name /> */}
       {/* <Map/> */}
       {/* <MapTwo/> */}
       {/* <MapThree/> */}
@@ -75,7 +75,7 @@ function App() {
      </ErrorBoundry> */}
    {/* <Hover/> */}
    {/* <Count/> */}
-{/* <ClickedCounter/> */}
+<ClickedCounter/>
       {/* <Table /> */}
     {/* <Fragment/> */}
       {/* <Form name = " "/> */}
